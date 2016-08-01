@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DashBoard</title>
+	<meta charset="utf-8">
+	<link rel = "stylesheet" type="text/css" href="stylesheet.css">
+	<script src = "jquery-3.1.0.js"></script>
+	<script src = "query.js"></script>
+</head>
+<body>
+<header>
+	<div id = "overlay" class = "overlayStyle"></div>
+	<label class="headerText">DashBoard App</label>
+
+	
+</header>
+
+<div id = "sortButton">
+	<button id="btnSortName">Sort By Name</button>
+	<button id="btnSortAge">Sort By age</button>
+</div>
+<form id = "inputForm">
+<div class = "divInput">
+<input type="text" id = "inputName" placeholder = "Name">
+<label id = "lblErrName">Please enter Name</label>
+</div>
+<div class = "divInput">
+<input type="number" id = "inputAge" placeholder = "Age">
+<label id = "lblErrAge">Please enter Age</label>
+</div>
+<div class="divInput">
+<input type="text" id = "inputAddress" placeholder="Address">
+<label id = "lblErrAddr">Please enter address</label>
+</div>
+<button id = "btnSubmit" type = "button">Submit</button>
+</form>
+<div id = "errorMessage" class="errorDiv">
+	<label> Please enter data </label>
+</div>
+<ul id = "listView"></ul>
+</body>
+
+
+
+</html>

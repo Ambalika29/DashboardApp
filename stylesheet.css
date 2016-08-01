@@ -1,0 +1,178 @@
+*{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	margin: 0 auto;
+	width: 95%;
+	padding: 15px;
+	background-color: #EEEDEC
+}
+
+header{
+	text-align: center;
+	color: #F9F9FC    ;
+	font-weight: bold;
+	background-color: #161FA1;
+	width: 100%;
+	padding: 3% 0;
+	margin: auto;
+	line-height: 40px;
+	font-size: 2rem;
+	border-radius: 0 15px;
+	position: relative;
+}
+
+header > label{
+	position: absolute;
+	top: 25%;
+	left: 39%;
+}
+
+form{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 20px auto 10px auto;
+	width: 80%
+}
+
+#inputForm input[type="text"]{
+	display: block;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 2px solid grey;
+	border-right: 2px solid grey;
+	border-radius: 0 0 5px 0;
+	text-align: left;
+	padding: 12px 10px;
+	padding-bottom: 0;
+	font-size: 1.2rem;
+	width: 95%;
+
+}
+
+input[type="number"]{
+	display: block;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 2px solid grey;
+	border-right: 2px solid grey;
+	border-radius: 0 0 5px 0;
+	text-align: left;
+	padding: 12px 10px;
+	padding-bottom: 0;
+	font-size: 1.2rem;
+	width: 95%;
+
+}
+
+form > button, #sortButton button{
+	border-radius: 5px;
+	border: 2px solid black;
+	background: grey;
+	text-align: center;
+	font-size: 1.2rem;
+	margin: auto 10px;
+}
+
+ul{
+	list-style-type: none;
+	overflow: auto;
+	width: 70%;
+	margin: 30px auto
+
+}
+ul > li {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+ul > li > div{
+	margin: 0 0;
+	padding: 5px;
+	text-align: left;
+	text-overflow: auto;
+	color: grey;
+	border: 1px solid grey;
+	flex: 1;
+}
+
+ul > li > div > input{
+	display: none;
+	border: 0;
+	outline: 0;
+	border-bottom: 2px solid grey;
+	width: 95%;
+	font-size: 1.2rem;
+	background: transparent;
+
+}
+
+ul > li > label > button{
+	margin: 2px auto;
+	height: 70%;
+}
+.divInput{
+	width: 30%;
+	margin: 0 10px;
+}
+
+.divInput label {
+	display: none;
+	color: #F52879;
+	font-size: 0.7rem;
+}
+.overlayStyle{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #F5F90E;
+	opacity: 0.2;
+	margin: auto;
+	top: 0;
+	left: 0;
+	border-radius: 0 15px;
+}
+
+
+.errorDiv{
+	width: 70%
+	margin: 10px auto;
+	background: transparent;
+	color: red;
+	font-size: 2rem;
+	text-align: center;
+	display: none;
+}
+
+.updateDiv{
+	display: none;
+}
+
+.showUpdateDiv{
+	display: flex;
+	padding: 10px;
+
+}
+.updateCancel{
+	flex: 1;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	background: transparent;
+	align-self: center;
+	
+}
+
+#sortButton{
+	margin: 20px;
+}
